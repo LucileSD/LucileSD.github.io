@@ -76,6 +76,10 @@ button,select{text-transform:none}[type=button],[type=reset],[type=submit],butto
     background-color: var(--color-old-pink);
   }
 
+  .presentation .col-2 {
+    font-family: fantasy;
+  }
+
   @media screen and (max-width: 768px) {
     .profile {
       margin-left: 25%!important;
@@ -88,7 +92,7 @@ button,select{text-transform:none}[type=button],[type=reset],[type=submit],butto
   }
 
   .carousel-inner {
-    padding: 3rem 0 3rem 10rem;
+    padding: 3% 20%;
   }
 
   .list-group-item {
