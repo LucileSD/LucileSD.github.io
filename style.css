@@ -76,12 +76,29 @@ button,select{text-transform:none}[type=button],[type=reset],[type=submit],butto
     background-color: var(--color-old-pink);
   }
 
-  /* carousel ==========*/
-  .carousel {
+  @media screen and (max-width: 768px) {
+    .profile {
+      margin-left: 25%!important;
+    }
+  }
+
+  /* skills ==========*/
+  .skills .carousel {
     background-color: var(--color-blue);
   }
 
   .carousel-inner {
     padding: 3rem 0 3rem 10rem;
-    color: var(--color-dark-blue)!important;
+  }
+
+  .list-group-item {
+    background-color: var(--color-blue);
+  }
+
+  /* project ============*/
+  .project {
+    background-color: var(--color-pink);
+  }
+  .project a{
+    color: var(--color-black);
   }
