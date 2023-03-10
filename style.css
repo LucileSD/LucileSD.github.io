@@ -96,9 +96,27 @@ button,select{text-transform:none}[type=button],[type=reset],[type=submit],butto
   }
 
   /* project ============*/
-  .project {
+  .project, .project .btn {
     background-color: var(--color-pink);
   }
   .project a{
-    color: var(--color-black);
+    color: var(--color-dark-blue);
+    text-decoration: underline;
   }
+
+  .project .card-body {
+    background-color: var(--color-old-pink);
+  }
+
+  @media screen and (max-width:768px) {
+    .project .card_projects {
+      margin-left: 25%!important;
+    }
+  }
+  @media screen and (max-width:564px) {
+    .project .card_projects {
+      margin-left: 12%!important;
+    }
+  }
+
+  /* experience =========*/
