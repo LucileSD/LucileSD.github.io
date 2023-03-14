@@ -189,3 +189,12 @@ button,select{text-transform:none}[type=button],[type=reset],[type=submit],butto
   .loisir h2 {
     columns: var(--color-dark-blue);
   }
+
+  /*contact ========*/
+  .contact {
+    background-color: var(--color-blue);
+  }
+
+  .contact button {
+    background-color: var(--color-old-pink);
+  }
