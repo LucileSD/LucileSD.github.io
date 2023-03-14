@@ -124,3 +124,68 @@ button,select{text-transform:none}[type=button],[type=reset],[type=submit],butto
   }
 
   /* experience =========*/
+  .experience {
+    background-color: var(--color-dark-blue);
+  }
+  .experience h2 {
+    color: var(--color-old-pink);
+  }
+  /*flip card*/
+  .flip-card {
+    background-color: transparent;
+    width: 18rem;
+    height: 18rem;
+    perspective: 1000px;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color: var(--color-blue);
+    color: black;
+  }
+  
+  .flip-card-back {
+    background-color: var(--color-old-pink);
+    color: var(--color-black);
+    transform: rotateY(180deg);
+  }
+
+  @media screen and (max-width:768px) {
+    .experience .flip-card {
+      margin-left: 25%!important;
+    }
+  }
+  @media screen and (max-width:564px) {
+    .experience .flip-card{
+      margin-left: 12%!important;
+    }
+  }
+
+  /* loisir =====*/
+  .loisir {
+    background-color: var(--color-pink);
+  }
+
+  .loisir h2 {
+    columns: var(--color-dark-blue);
+  }
