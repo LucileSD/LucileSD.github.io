@@ -183,7 +183,7 @@ button,select{text-transform:none}[type=button],[type=reset],[type=submit],butto
 
   /* loisir =====*/
   .loisir {
-    background-color: var(--color-pink);
+    background-color: var(--color-old-pink);
   }
 
   .loisir h2 {
