@@ -51,40 +51,45 @@ button,select{text-transform:none}[type=button],[type=reset],[type=submit],butto
   }
 
   .part {
-    position: fixed;
     background-color: var(--color-black);
     color: var(--color-white);
     border: solid;
   }
 
   .name {
+    position: fixed;
     left: 0;
     top: 0;
-    width: 30rem;
-    height: 24.6rem;
+    width: 30%;
+    height: 50%;
     display: grid;
     place-content: center;
     font-size: var(--font-size);
   }
 
   .photo {
+    position: fixed;
     left: 0;
     bottom: 0;
-    width: 30rem;
-    height: 20rem;
+    width: 30%;
+    height: 50%;
     display: flex;
     justify-content: center;
+    align-items: center;
   }
 
   .content {
+    width: 70%;
+    height: 100%;
+    position: inherit;
     right: 0;
     width: 66rem;
     height: 100%;
   }
 
   .photo img {
-    width: 65%;
-    height: 100%;
+    width: 70%;
+    height: 75%;
     border-radius: 50%;
     border: solid;
   }
