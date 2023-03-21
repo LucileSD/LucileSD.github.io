@@ -8,31 +8,271 @@
     <title>CV Lucile DELEFORGE</title>
   </head>
   <body>
-    <!-- nom et titre-->
-    <section class="part name">
-      <p>Bonjour,</p>
-      <p>Je m'appelle <strong>Lucile DELEFORGE</strong>.</p>
-      <p>Je suis <span class="txt-rotate" data-period="2000" data-rotate='[ "développeuse Full-stack.", "développeuse Back-end.", "développeuse Front-end." ]'></span></p>
+    <section class="container-fluid">
+      <!-- nom et titre-->
+      <section class="part name">
+        <div>
+          <p>Bonjour,</p>
+          <p>Je m'appelle <strong>Lucile DELEFORGE</strong>.</p>
+          <p>Je suis <span class="txt-rotate" data-period="2000" data-rotate='[ "développeuse Full-stack.", "développeuse Back-end.", "développeuse Front-end." ]'></span></p>
+          <p><strong>Apprendre c’est la vie !</strong>
+            Artisan du web,
+            curieuse et prête à vivre de
+            nouvelles aventures, je
+            m’épanouie dans la
+            collaboration autant que
+            dans l’autonomie.</p></p>
+          <form action="mailto:luciledeleforge@hotmail.fr">
+            <button>envoyez moi un e-mail</button>
+          </form>
+        </div>
+      </section>
+      <!--photo-->
+      <section class="part photo">
+        <img src="images/profile.jpg" alt="photo de profil">
+      </section>
+      <!--contenu-->
+      <section class="part content">
+        <header>
+          <!--menu-->
+          <nav class="navbar navbar-expand-md navbar-dark pl-5">
+            <button class="navbar-toggler border border-white" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#skills">Compétences</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#projects">Projets</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#experience">Experiences</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </header>
+        <main>
+          <!--compétences-->
+          <section class="compétences pt-5" id="skills">
+            <!--langages-->
+            <section class="langages">
+              <h4 class="pl-2">Langages</h4>
+              <div class="logo pl-5">
+                <div class="card m-2">
+                  <div class="card-header text-dark">
+                    FRONT-END
+                  </div>
+                  <div class="card-body">
+                    <figure>
+                      <img src="images/html-wh.svg" alt="HTML">
+                      <figcaption>&nbsp;&nbsp;&nbsp;HTML 5</figcaption>
+                    </figure>
+                    <figure>
+                      <img src="images/css-wh.svg" alt="CSS">
+                      <figcaption>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; CSS</figcaption>
+                    </figure>
+                    <figure>
+                      <img src="images/js-wh.svg" alt="JS">
+                      <figcaption>&nbsp;javascript</figcaption>
+                    </figure>
+                    <figure>
+                      <img src="images/boot-wh.svg" alt="bootstrap">
+                      <figcaption>&nbsp;&nbsp;bootstrap</figcaption>
+                    </figure>
+                  </div>
+                </div>
+                <div class="card m-2">
+                  <div class="card-header text-dark">
+                    BACK-END
+                  </div>
+                  <div class="card-body">
+                    <figure>
+                      <img src="images/python-wh.svg" alt="python">
+                      <figcaption>&nbsp;&nbsp;&nbsp;python</figcaption>
+                    </figure>
+                    <figure>
+                      <img src="images/node-wh.svg" alt="node js">
+                      <figcaption>&nbsp;&nbsp;&nbsp;node js</figcaption>
+                    </figure>
+                    <figure>
+                      <img src="images/c-wh.svg" alt="c programming">
+                      <figcaption>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;C</figcaption>
+                    </figure>
+                  </div>
+                </div>
+                <div class="card m-2">
+                  <div class="card-header text-dark">
+                    DATABASE
+                  </div>
+                  <div class="card-body">
+                    <figure>
+                      <img src="images/sql-wh.svg" alt="MySQL">
+                      <figcaption>&nbsp;&nbsp;&nbsp;MySQL</figcaption>
+                    </figure>
+                    <figure>
+                      <img src="images/mongo-wh.svg" alt="mongo db">
+                      <figcaption>Mongo DB</figcaption>
+                    </figure>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!--soft skills-->
+            <section class="skills">
+              <h4 class="pl-2 pt-4">Compétences</h4>
+              <p class="pl-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem deserunt ipsa, cumque, vel dolor itaque temporibus ipsam sed rem, optio magnam sequi. Maiores dolore doloribus sit temporibus culpa vitae natus.</p>
+            </section>
+            <hr class="m-5">
+            <!--projets-->
+            <section class="projet" id="projects">
+              <h4 class="pl-2">Projets</h4>
+              <p class="pl-2">Vous pouvez voir différents projets en suivant les liens ou vous diriger directement vers mon <a href="https://github.com/LucileSD">github</a></p>
+              <div class="card_projects d-flex flex-md-row flex-column justify-content-center">
+                <div class="card ml-2 mb-2" style="width: 18rem;">
+                  <div class="card-body">
+                    <h5 class="card-title">holbertonschool-smiling-school</h5>
+                    <h6 class="card-subtitle mb-2">Projet front-end</h6>
+                    <p class="card-text">Projet avec HTML, CSS et Bootstrap</p>
+                    <a href="https://github.com/LucileSD/holbertonschool-smiling-school" class="btn" role="button">smiling</a>
+                  </div>
+                </div>
+                <div class="card ml-2 mb-2" style="width: 18rem;">
+                  <div class="card-body">
+                    <h5 class="card-title">holbertonschool-headphones</h5>
+                    <h6 class="card-subtitle mb-2">Projet front-end</h6>
+                    <p class="card-text">A partir d'un visuel Figma, faire un site static avec HTML et CSS</p>
+                    <a href="https://github.com/LucileSD/holbertonschool-headphones" class="btn" role="button">headphones</a>
+                  </div>
+                </div>
+                <div class="card ml-2 mb-2" style="width: 18rem;">
+                  <div class="card-body">
+                    <h5 class="card-title">Quizz Busters</h5>
+                    <h6 class="card-subtitle mb-2">Projet portfolio</h6>
+                    <p class="card-text">projet personnel, un jeu de culture générale, avec front-end et back-end</p>
+                    <a href="https://github.com/LucileSD/quizzbusters" class="btn" role="button">quizz</a>
+                  </div>
+                </div>
+                <div class="card ml-2 mb-2" style="width: 18rem;">
+                  <div class="card-body">
+                    <h5 class="card-title">holbertonschool-AirBnB_clone</h5>
+                    <h6 class="card-subtitle mb-2">Projet front-end back-end</h6>
+                    <p class="card-text">clone du site Air BnB, console, Flask, api</p>
+                    <a href="https://github.com/LucileSD/holbertonschool-AirBnB_clone_v4" class="btn" role="button">HBNB</a>
+                  </div>
+                </div>
+                <div class="card ml-2 mb-2" style="width: 18rem;">
+                  <div class="card-body">
+                    <h5 class="card-title">projets en C</h5>
+                    <h6 class="card-subtitle mb-2">Projets pour s'entrainer avec le C</h6>
+                    <p class="card-text">simple shell, sorting algorithms, binary trees...</p>
+                    <a href="https://github.com/LucileSD/holbertonschool-low_level_programming" class="btn mb-1" role="button">C projects</a>
+                    <a href="https://github.com/LucileSD/holbertonschool-binary_trees" class="btn mb-1" role="button">binary trees</a>
+                    <a href="https://github.com/LucileSD/simple_shell" class="btn" role="button">simple shell</a>
+                  </div>
+                </div>
+                <div class="card ml-2 mr-2 mb-2" style="width: 18rem;">
+                  <div class="card-body">
+                    <h5 class="card-title">projets database</h5>
+                    <h6 class="card-subtitle mb-2">Projets pour s'entrainer avec mySQL</h6>
+                    <p class="card-text">créer une database, manipuler une database</p>
+                    <a href="https://github.com/LucileSD/holbertonschool-higher_level_programming/tree/main/0x0E-SQL_more_queries" class="btn mb-1" role="button">MySQL</a>
+                    <a href="https://github.com/LucileSD/holbertonschool-web_back_end/tree/main/0x0C-MySQL_Advanced" class="btn" role="button">MySQL adavanced</a>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <hr class="m-5">
+            <!--experiences-->
+            <section class="experience" id="experience">
+              <h4 class="pl-2">Experiences</h4>
+              <div class="d-flex flex-wrap flex-md-row flex-column justify-content-center">
+                <!--rexel-->
+                <div class="mb-2">
+                  <div class="flip-card pr-1 pl-1">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                        <p class="pt-3"><strong>Gestionnaire de recouvrement</strong></p>
+                        <p>REXEL France</p>
+                        <p>Wattignies</p>
+                        <p>2014 - 2021</p>
+                      </div>
+                      <div class="flip-card-back pt-3">
+                        <p>tenu du portefeuille Alsace de relance</p>
+                        <p>échanges d'informations avec les agences commerciales</p>
+                        <p>contact des clients par téléphone, mail, courrier</p>
+                        <p>suivi des échéanciers</p>
+                        <p>saisie de litiges</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--effico-->
+                <div class="mb-2">
+                  <div class="flip-card pr-1 pl-1">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                        <p class="pt-3"><strong>Gestionnaire de recouvrement</strong></p>
+                        <p>EFFICO</p>
+                        <p>Wasquehal</p>
+                        <p>2013 - 2014</p>
+                      </div>
+                      <div class="flip-card-back pt-3">
+                        <p>relance des clients débiteurs par téléphone</p>
+                        <p>suivi du logiciel de relance</p>
+                        <p>suivi des échéanciers</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--melting-->
+                <div class="mb-2">
+                  <div class="flip-card pr-1 pl-1">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                        <p class="pt-3"><strong>Secrétaire</strong></p>
+                        <p>Péoléo, Europe 2 Nord</p>
+                        <p>Tourcoing, Marcq-en-Baroeul</p>
+                        <p>2007 - 2012</p>
+                      </div>
+                      <div class="flip-card-back pt-3">
+                        <p>réponse au téléphone, suivi des jeux, tableur excel</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--entraineur de Volley-->
+                <div class="mb-2">
+                  <div class="flip-card pr-1 pl-1">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                        <p class="pt-3"><strong>Entraîneur de VolleyBall</strong></p>
+                        <p>Comité Nord et club de Marcq-en-Baroeul</p>
+                        <p>Marcq-en-Baroeul</p>
+                        <p>2004 - 2007</p>
+                      </div>
+                      <div class="flip-card-back pt-3">
+                        <p>mise en place des entrainements, coaching</p>
+                        <p>pour les écoles primaires et centre aérés du Nord</p>
+                        <p>équipe poussin, benjamin, cadet, senior</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </section>
+        </main>
+        <footer>
+          
+        </footer>
+      </section>
+      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+      <script src="script.js"></script>
     </section>
-    <!--photo-->
-    <section class="part photo">
-      <img src="images/profile.jpg" alt="photo de profil">
-    </section>
-    <!--contenu-->
-    <section class="part content">
-      <header>
-
-      </header>
-      <main>
-        content
-      </main>
-      <footer>
-        
-      </footer>
-    </section>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    <script src="script.js"></script>
   </body>
 </html>
