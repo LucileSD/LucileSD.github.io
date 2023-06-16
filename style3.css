@@ -326,6 +326,12 @@ figure figcaption {
   justify-content: center;
 }
 
+@media screen and (max-width: 405px) {
+  .xp-card .mb-2 {
+    margin-left: 7em;
+  }
+}
+
 /*plus*/
 #info {
   margin: 4em;
