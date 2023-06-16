@@ -278,9 +278,8 @@ figure figcaption {
 }
 .flip-card {
   background-color: transparent;
-  width: 18rem;
-  height: 18rem;
-  perspective: 1000px;
+  width: 13em;
+  height: 19em;
 }
 
 .flip-card-inner {
