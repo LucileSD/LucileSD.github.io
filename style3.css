@@ -165,6 +165,11 @@ header, .navbar {
 a {
   color: var(--color-letter);
 }
+
+.navbar-nav a{
+  margin-right: 2em;
+}
+
  @media screen and (max-width: 992px) {
   .header {
     display: flex;
