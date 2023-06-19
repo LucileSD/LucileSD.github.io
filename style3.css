@@ -99,8 +99,12 @@ body {
 
 
 
-#bonjour, #nom, #titre, #presentation, #first-button, #profile, #button-bottom, #linkedin {
+#bonjour, #nom, #titre, #presentation, #first-button, #profile, #button-bottom{
   margin-bottom: 2em;
+}
+
+#linkedin, #github, #pdf {
+  margin-bottom: 0.5em;
 }
 
 .aside-bottom {
@@ -358,13 +362,6 @@ figure figcaption {
   width: 25em;
 }
 
-/*footer*/
-.footer {
-  display: flex;
-  justify-content: start;
-  margin-left: 3em;
-  margin-bottom: 3em;
-}
 
 /*petit écran*/
 @media screen and (max-width: 500px) {
