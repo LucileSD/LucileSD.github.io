@@ -148,9 +148,26 @@ button {
 }
 
 /*menu*/
+#over {
+  width: 100%;
+  height: 0.5rem;
+  background-color: var(--color-green);
+  position: fixed;
+  top: 0;
+  z-index: 99;
+}
+.header {
+  border: 1px solid var(--color-letter) !important;
+  position: fixed;
+  top: 0;
+  margin-top: 0.5rem;
+  right: 0;
+  left: 17.5rem;
+  z-index: 999;
+}
+
 header, .navbar {
   font-family: var(--font-title)!important;
-  border: 1px solid var(--color-letter) !important;
   background-color: var(--color-grey) !important;
 }
 
@@ -176,7 +193,14 @@ a {
     justify-content: center;
     background-color: transparent!important;
     border: 0px!important;
-}
+    position: static;
+  }
+  .navbar {
+    border: 1px solid var(--color-letter) !important;
+  }
+  #over {
+    position: static;
+  }
  }
 
 /*main*/
@@ -187,6 +211,9 @@ a {
 }
 
 /*compétences*/
+#competences {
+  margin-top: 7em;
+}
 #description {
   margin: 4em;
 }
@@ -202,6 +229,11 @@ a {
   font-size: 10px;
 }
 
+#competences .card-body {
+  display: flex;
+  justify-content: space-around;
+}
+
 
 .card-header {
   background-color: var(--color-letter);
@@ -213,7 +245,20 @@ a {
 .logo {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   margin-left: 3%;
+}
+
+#competences figure {
+  display: block;
+}
+
+#competences figcaption {
+  text-align: center;
+}
+
+#img-git, #teamwork, #communication, #curious {
+  width: 5em;
 }
 
 @media screen and (max-width: 650px) {
