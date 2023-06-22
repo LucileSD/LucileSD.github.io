@@ -257,8 +257,20 @@ a {
   text-align: center;
 }
 
-#img-git, #teamwork, #communication, #curious {
+#img-git, #teamwork, #communication, #curious, #adapt {
   width: 5em;
+}
+
+#communication {
+  margin-left: 1em;
+}
+
+#teamwork {
+  margin-left: 1.5em;
+}
+
+#adapt {
+  margin-left: 0.5em;
 }
 
 @media screen and (max-width: 650px) {
